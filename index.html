@@ -2,146 +2,138 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sai Puja Tanmayi Srivillibhutturu | Data Analytics Portfolio</title>
-  <meta name="description" content="Portfolio showcasing data analytics, BI dashboards, and machine learning projects using SQL, Python, R, Power BI, and Tableau." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Analytics Portfolio</title>
+  <meta name="description" content="Data Analytics & ML Portfolio - SQL, Python, Power BI, Tableau, Statistical Modeling" />
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <header class="hero">
-    <div class="container">
-      <h1>Sai Puja Tanmayi</h1>
-      <p class="subtitle">Data Analytics • Business Intelligence • Machine Learning</p>
+  <!-- Background Canvas -->
+  <canvas id="jellyCanvas" aria-hidden="true"></canvas>
 
-      <div class="cta-row">
+  <header class="hero">
+    <div class="hero-inner">
+      <!-- Cute eyes -->
+      <div class="eyes" aria-hidden="true">
+        <div class="eye">
+          <div class="lid"></div>
+          <div class="eyeball">
+            <div class="pupil"></div>
+          </div>
+        </div>
+        <div class="eye">
+          <div class="lid"></div>
+          <div class="eyeball">
+            <div class="pupil"></div>
+          </div>
+        </div>
+      </div>
+
+      <h1>Your Name</h1>
+      <p class="tagline">Data Analytics • Business Intelligence • Machine Learning</p>
+
+      <div class="cta">
         <a class="btn" href="assets/resume.pdf" download>Download Resume</a>
         <a class="btn ghost" href="#projects">View Projects</a>
       </div>
 
-      <div class="link-row">
-        <a href="mailto:saipujasrivilli@gmail.com">Email</a>
+      <div class="links">
+        <a href="mailto:your@email.com">Email</a>
         <span>•</span>
         <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a>
         <span>•</span>
-        <a href="https://github.com/saipujasrivilli" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://github.com/yourgithub" target="_blank" rel="noopener">GitHub</a>
       </div>
     </div>
   </header>
 
-  <main>
+  <main class="content">
     <section id="about" class="section">
-      <div class="container">
-        <h2>About</h2>
-        <p>
-          Master’s student in Analytics with hands-on experience in SQL, Python, R, Power BI, and Tableau.
-          I build data-driven solutions that turn messy data into decision-ready insights—across credit risk,
-          KPI reporting, customer segmentation, and predictive analytics.
-        </p>
-      </div>
+      <h2>About</h2>
+      <p>
+        Master’s student in Analytics with experience in SQL, Python, R, Power BI, and Tableau.
+        I build dashboards, models, and reports that turn messy data into decision-ready insights—credit risk,
+        segmentation, KPI reporting, and predictive analytics.
+      </p>
     </section>
 
     <section id="projects" class="section">
-      <div class="container">
-        <h2>Projects</h2>
+      <h2>Projects</h2>
 
-        <div class="grid">
-          <article class="card">
-            <h3>Credit Risk Prediction</h3>
-            <p>
-              Built a predictive model to estimate loan default risk using statistical modeling and ML workflows.
-              Focused on feature engineering, model evaluation, and business implications.
-            </p>
-            <p class="meta"><strong>Tools:</strong> Python, SQL, scikit-learn</p>
-            <!-- Optional: add link -->
-            <!-- <a class="card-link" href="https://github.com/..." target="_blank">GitHub ↗</a> -->
-          </article>
+      <div class="grid">
+        <article class="card">
+          <h3>Credit Risk Prediction</h3>
+          <p>Built a predictive model to estimate loan default risk using ML workflows and statistical modeling.</p>
+          <p class="meta"><strong>Tools:</strong> Python, SQL, scikit-learn</p>
+        </article>
 
-          <article class="card">
-            <h3>KPI Dashboards (Power BI)</h3>
-            <p>
-              Designed and delivered 3 KPI dashboards and presented insights to stakeholders to support faster
-              decision-making and performance tracking.
-            </p>
-            <p class="meta"><strong>Tools:</strong> Power BI, DAX, Excel</p>
-          </article>
+        <article class="card">
+          <h3>KPI Dashboards (Power BI)</h3>
+          <p>Built 3 KPI dashboards and presented insights to multiple stakeholders for performance tracking.</p>
+          <p class="meta"><strong>Tools:</strong> Power BI, DAX, Excel</p>
+        </article>
 
-          <article class="card">
-            <h3>Market Segmentation</h3>
-            <p>
-              Performed customer segmentation using clustering and statistical analysis to identify distinct groups
-              and recommend targeted strategies.
-            </p>
-            <p class="meta"><strong>Tools:</strong> SQL, R/Python, Tableau</p>
-          </article>
+        <article class="card">
+          <h3>Market Segmentation</h3>
+          <p>Performed segmentation using clustering and statistical analysis to identify distinct customer groups.</p>
+          <p class="meta"><strong>Tools:</strong> SQL, R/Python, Tableau</p>
+        </article>
 
-          <article class="card">
-            <h3>Investor Behavior Research</h3>
-            <p>
-              Explored investor decision patterns using predictive modeling and regression-based analysis, translating
-              findings into accessible insights.
-            </p>
-            <p class="meta"><strong>Tools:</strong> Python, Statistics</p>
-          </article>
-        </div>
+        <article class="card">
+          <h3>Investor Behavior Research</h3>
+          <p>Applied predictive modeling to understand investor behavior patterns under varying market conditions.</p>
+          <p class="meta"><strong>Tools:</strong> Python, Statistics</p>
+        </article>
       </div>
     </section>
 
     <section id="skills" class="section">
-      <div class="container">
-        <h2>Skills</h2>
-
-        <div class="skills">
-          <div>
-            <h4>Core</h4>
-            <ul>
-              <li>SQL (joins, aggregations, window functions)</li>
-              <li>Python / R (EDA, modeling, validation)</li>
-              <li>Excel (pivots, reporting, analysis)</li>
-            </ul>
-          </div>
-
-          <div>
-            <h4>Visualization</h4>
-            <ul>
-              <li>Power BI (DAX, dashboards, KPI reporting)</li>
-              <li>Tableau (visual storytelling)</li>
-            </ul>
-          </div>
-
-          <div>
-            <h4>Methods</h4>
-            <ul>
-              <li>Data cleaning & transformation</li>
-              <li>Segmentation, regression, time series basics</li>
-              <li>A/B testing concepts</li>
-            </ul>
-          </div>
+      <h2>Skills</h2>
+      <div class="skills">
+        <div>
+          <h4>Core</h4>
+          <ul>
+            <li>SQL (joins, aggregations, window functions)</li>
+            <li>Python / R (EDA, modeling, validation)</li>
+            <li>Excel (pivots, reporting)</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Visualization</h4>
+          <ul>
+            <li>Power BI (DAX, dashboards)</li>
+            <li>Tableau (data storytelling)</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Methods</h4>
+          <ul>
+            <li>Cleaning & transformation</li>
+            <li>Regression, segmentation, time series basics</li>
+            <li>A/B testing concepts</li>
+          </ul>
         </div>
       </div>
     </section>
 
     <section id="contact" class="section">
-      <div class="container">
-        <h2>Contact</h2>
-        <p>
-          Want to chat about analytics, BI dashboards, or machine learning? Reach out:
-        </p>
-        <div class="link-row">
-          <a href="mailto:saipujasrivilli@gmail.com">Email</a>
-          <span>•</span>
-          <a href="hhttps://www.linkedin.com/in/sai-puja-tanmayi-srivillibhutturu/" target="_blank" rel="noopener">LinkedIn</a>
-          <span>•</span>
-          <a href="hhttps://github.com/saipujasrivilli" target="_blank" rel="noopener">GitHub</a>
-        </div>
+      <h2>Contact</h2>
+      <p>Want to collaborate or chat about analytics? Reach out:</p>
+      <div class="links left">
+        <a href="mailto:your@email.com">your@email.com</a>
+        <span>•</span>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn</a>
+        <span>•</span>
+        <a href="https://github.com/yourgithub" target="_blank" rel="noopener">GitHub</a>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="container">
-      <p>© 2026 Sai Puja Tanmayi Srivillibhutturu </p>
-    </div>
+    <p>© 2026 Your Name</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
