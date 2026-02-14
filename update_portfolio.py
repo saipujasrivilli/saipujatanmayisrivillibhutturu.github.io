@@ -11,14 +11,14 @@ import requests
 from datetime import datetime
 
 # Configuration
-GITHUB_USERNAME = os.environ.get("GITHUB_USERNAME", "saitejasrivilli")
+GITHUB_USERNAME = os.environ.get("GITHUB_USERNAME", "saipujasrivilli")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 PORTFOLIO_ROOT = os.environ.get("PORTFOLIO_ROOT", ".")
 
 # Repos to exclude
 EXCLUDE_REPOS = [
-    "saitejasrivilli.github.io",
-    "saitejasrivilli",
+    "saipujatanmayisrivillibhutturu.github.io",
+    "saipujasrivilli",
     ".github"
 ]
 
